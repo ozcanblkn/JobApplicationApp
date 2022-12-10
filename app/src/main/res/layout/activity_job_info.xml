@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".JobInfo"
+    >
+
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:layout_centerHorizontal="true"
+        >
+    </TextView>
+
+    <TextView
+
+        android:id="@+id/infotext"
+        android:layout_width="wrap_content"
+        android:layout_below="@id/info"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="10dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize="20sp" >
+
+    </TextView>
+
+
+    <Button
+
+        android:id="@+id/apply_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/infotext"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#4634a2"
+        android:text="Apply"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Profile"
+    >
+
+
+    <androidx.appcompat.widget.Toolbar
+
+        android:id="@+id/toolbar_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        app:title="Profile Update Page"
+        app:titleTextColor="#000000" />
+
+    <EditText
+
+        android:id="@+id/up_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar_login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="60dp"
+        android:drawablePadding="10dp"
+        android:hint="New Password"
+        android:paddingBottom="20dp">
+
+
+    </EditText>
+
+
+    <EditText
+
+        android:id="@+id/up_cv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@+id/up_pass"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="11dp"
+        android:drawablePadding="10dp"
+        android:hint="New CV"
+        android:paddingBottom="20dp" />
+
+
+
+
+    <Button
+
+        android:id="@+id/up_button"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/up_cv"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#0000FF"
+        android:text="Update Profile"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+
+</RelativeLayout>
